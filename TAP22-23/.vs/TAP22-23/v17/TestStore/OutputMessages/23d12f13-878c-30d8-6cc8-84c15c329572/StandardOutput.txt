@@ -1,0 +1,1058 @@
+info: 26/01/2023 09:17:55.011 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.011 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.011 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.011 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.011 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.011 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 26/01/2023 09:17:55.011 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 26/01/2023 09:17:55.011 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.011 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.012 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'master' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.018 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'master' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.018 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.018 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.018 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+      IF SERVERPROPERTY('EngineEdition') <> 5
+      BEGIN
+          ALTER DATABASE [TAP22-23] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+      END;
+info: 26/01/2023 09:17:55.021 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      IF SERVERPROPERTY('EngineEdition') <> 5
+      BEGIN
+          ALTER DATABASE [TAP22-23] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+      END;
+dbug: 26/01/2023 09:17:55.022 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.022 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.022 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+      DROP DATABASE [TAP22-23];
+info: 26/01/2023 09:17:55.050 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      DROP DATABASE [TAP22-23];
+dbug: 26/01/2023 09:17:55.050 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'master' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.050 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'master' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.050 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.058 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.058 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'master' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.058 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'master' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.058 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.058 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.058 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+      CREATE DATABASE [TAP22-23];
+info: 26/01/2023 09:17:55.269 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (211ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      CREATE DATABASE [TAP22-23];
+dbug: 26/01/2023 09:17:55.269 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.269 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.269 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+      IF SERVERPROPERTY('EngineEdition') <> 5
+      BEGIN
+          ALTER DATABASE [TAP22-23] SET READ_COMMITTED_SNAPSHOT ON;
+      END;
+info: 26/01/2023 09:17:55.349 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      IF SERVERPROPERTY('EngineEdition') <> 5
+      BEGIN
+          ALTER DATABASE [TAP22-23] SET READ_COMMITTED_SNAPSHOT ON;
+      END;
+dbug: 26/01/2023 09:17:55.349 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'master' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.349 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'master' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.349 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.356 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.356 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.356 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.356 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 26/01/2023 09:17:55.356 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 26/01/2023 09:17:55.356 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.356 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.358 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.358 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.358 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.358 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.358 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+dbug: 26/01/2023 09:17:55.359 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'ReadCommitted'.
+dbug: 26/01/2023 09:17:55.359 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.359 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.359 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Sites] (
+          [SiteEntityId] int NOT NULL IDENTITY,
+          [Name] nvarchar(128) NOT NULL,
+          [TimeZone] int NOT NULL,
+          [MinimumBidIncrement] float NOT NULL,
+          [SessionExpirationTimeInSeconds] int NOT NULL,
+          CONSTRAINT [PK_Sites] PRIMARY KEY ([SiteEntityId])
+      );
+info: 26/01/2023 09:17:55.366 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Sites] (
+          [SiteEntityId] int NOT NULL IDENTITY,
+          [Name] nvarchar(128) NOT NULL,
+          [TimeZone] int NOT NULL,
+          [MinimumBidIncrement] float NOT NULL,
+          [SessionExpirationTimeInSeconds] int NOT NULL,
+          CONSTRAINT [PK_Sites] PRIMARY KEY ([SiteEntityId])
+      );
+dbug: 26/01/2023 09:17:55.366 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.366 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.366 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Users] (
+          [UserEntityId] int NOT NULL IDENTITY,
+          [Username] nvarchar(64) NOT NULL,
+          [Password] nvarchar(max) NOT NULL,
+          [SiteEntityId] int NOT NULL,
+          CONSTRAINT [PK_Users] PRIMARY KEY ([UserEntityId]),
+          CONSTRAINT [FK_Users_Sites_SiteEntityId] FOREIGN KEY ([SiteEntityId]) REFERENCES [Sites] ([SiteEntityId]) ON DELETE CASCADE
+      );
+info: 26/01/2023 09:17:55.369 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Users] (
+          [UserEntityId] int NOT NULL IDENTITY,
+          [Username] nvarchar(64) NOT NULL,
+          [Password] nvarchar(max) NOT NULL,
+          [SiteEntityId] int NOT NULL,
+          CONSTRAINT [PK_Users] PRIMARY KEY ([UserEntityId]),
+          CONSTRAINT [FK_Users_Sites_SiteEntityId] FOREIGN KEY ([SiteEntityId]) REFERENCES [Sites] ([SiteEntityId]) ON DELETE CASCADE
+      );
+dbug: 26/01/2023 09:17:55.369 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.369 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.369 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Auctions] (
+          [AuctionEntityId] int NOT NULL IDENTITY,
+          [Description] nvarchar(max) NOT NULL,
+          [EndsOn] datetime2 NOT NULL,
+          [CurrentPrice] float NOT NULL,
+          [MaximumBidValue] float NOT NULL,
+          [SellerEntityId] int NOT NULL,
+          [WinnerEntityId] int NULL,
+          [SiteEntityId] int NOT NULL,
+          CONSTRAINT [PK_Auctions] PRIMARY KEY ([AuctionEntityId]),
+          CONSTRAINT [FK_Auctions_Sites_SiteEntityId] FOREIGN KEY ([SiteEntityId]) REFERENCES [Sites] ([SiteEntityId]) ON DELETE CASCADE,
+          CONSTRAINT [FK_Auctions_Users_SellerEntityId] FOREIGN KEY ([SellerEntityId]) REFERENCES [Users] ([UserEntityId]),
+          CONSTRAINT [FK_Auctions_Users_WinnerEntityId] FOREIGN KEY ([WinnerEntityId]) REFERENCES [Users] ([UserEntityId])
+      );
+info: 26/01/2023 09:17:55.373 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Auctions] (
+          [AuctionEntityId] int NOT NULL IDENTITY,
+          [Description] nvarchar(max) NOT NULL,
+          [EndsOn] datetime2 NOT NULL,
+          [CurrentPrice] float NOT NULL,
+          [MaximumBidValue] float NOT NULL,
+          [SellerEntityId] int NOT NULL,
+          [WinnerEntityId] int NULL,
+          [SiteEntityId] int NOT NULL,
+          CONSTRAINT [PK_Auctions] PRIMARY KEY ([AuctionEntityId]),
+          CONSTRAINT [FK_Auctions_Sites_SiteEntityId] FOREIGN KEY ([SiteEntityId]) REFERENCES [Sites] ([SiteEntityId]) ON DELETE CASCADE,
+          CONSTRAINT [FK_Auctions_Users_SellerEntityId] FOREIGN KEY ([SellerEntityId]) REFERENCES [Users] ([UserEntityId]),
+          CONSTRAINT [FK_Auctions_Users_WinnerEntityId] FOREIGN KEY ([WinnerEntityId]) REFERENCES [Users] ([UserEntityId])
+      );
+dbug: 26/01/2023 09:17:55.373 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.373 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.373 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Sessions] (
+          [SessionEntityId] nvarchar(450) NOT NULL,
+          [ValidUntil] datetime2 NOT NULL,
+          [UserEntityId] int NOT NULL,
+          [SiteEntityId] int NOT NULL,
+          CONSTRAINT [PK_Sessions] PRIMARY KEY ([SessionEntityId]),
+          CONSTRAINT [FK_Sessions_Sites_SiteEntityId] FOREIGN KEY ([SiteEntityId]) REFERENCES [Sites] ([SiteEntityId]),
+          CONSTRAINT [FK_Sessions_Users_UserEntityId] FOREIGN KEY ([UserEntityId]) REFERENCES [Users] ([UserEntityId]) ON DELETE CASCADE
+      );
+info: 26/01/2023 09:17:55.375 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Sessions] (
+          [SessionEntityId] nvarchar(450) NOT NULL,
+          [ValidUntil] datetime2 NOT NULL,
+          [UserEntityId] int NOT NULL,
+          [SiteEntityId] int NOT NULL,
+          CONSTRAINT [PK_Sessions] PRIMARY KEY ([SessionEntityId]),
+          CONSTRAINT [FK_Sessions_Sites_SiteEntityId] FOREIGN KEY ([SiteEntityId]) REFERENCES [Sites] ([SiteEntityId]),
+          CONSTRAINT [FK_Sessions_Users_UserEntityId] FOREIGN KEY ([UserEntityId]) REFERENCES [Users] ([UserEntityId]) ON DELETE CASCADE
+      );
+dbug: 26/01/2023 09:17:55.375 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.375 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.375 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Auctions_SellerEntityId] ON [Auctions] ([SellerEntityId]);
+info: 26/01/2023 09:17:55.376 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Auctions_SellerEntityId] ON [Auctions] ([SellerEntityId]);
+dbug: 26/01/2023 09:17:55.376 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.376 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.376 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Auctions_SiteEntityId] ON [Auctions] ([SiteEntityId]);
+info: 26/01/2023 09:17:55.378 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Auctions_SiteEntityId] ON [Auctions] ([SiteEntityId]);
+dbug: 26/01/2023 09:17:55.378 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.378 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.378 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Auctions_WinnerEntityId] ON [Auctions] ([WinnerEntityId]);
+info: 26/01/2023 09:17:55.378 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Auctions_WinnerEntityId] ON [Auctions] ([WinnerEntityId]);
+dbug: 26/01/2023 09:17:55.378 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.378 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.378 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Sessions_SiteEntityId] ON [Sessions] ([SiteEntityId]);
+info: 26/01/2023 09:17:55.379 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Sessions_SiteEntityId] ON [Sessions] ([SiteEntityId]);
+dbug: 26/01/2023 09:17:55.379 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.379 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.379 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX [UserReferenceUnique] ON [Sessions] ([UserEntityId]);
+info: 26/01/2023 09:17:55.380 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX [UserReferenceUnique] ON [Sessions] ([UserEntityId]);
+dbug: 26/01/2023 09:17:55.380 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.380 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.380 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX [NameUnique] ON [Sites] ([Name]);
+info: 26/01/2023 09:17:55.381 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX [NameUnique] ON [Sites] ([Name]);
+dbug: 26/01/2023 09:17:55.381 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.381 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.381 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Users_SiteEntityId] ON [Users] ([SiteEntityId]);
+info: 26/01/2023 09:17:55.382 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX [IX_Users_SiteEntityId] ON [Users] ([SiteEntityId]);
+dbug: 26/01/2023 09:17:55.382 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.382 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.382 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX [UsernameAndSiteUnique] ON [Users] ([Username], [SiteEntityId]);
+info: 26/01/2023 09:17:55.383 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX [UsernameAndSiteUnique] ON [Users] ([Username], [SiteEntityId]);
+dbug: 26/01/2023 09:17:55.383 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+dbug: 26/01/2023 09:17:55.383 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+dbug: 26/01/2023 09:17:55.383 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+dbug: 26/01/2023 09:17:55.383 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.383 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.383 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:55.384 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.384 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.384 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.384 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.384 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.384 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 26/01/2023 09:17:55.385 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 26/01/2023 09:17:55.385 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.385 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.385 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:55.385 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.385 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.385 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.385 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.385 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.385 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 26/01/2023 09:17:55.386 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 26/01/2023 09:17:55.386 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.386 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.386 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:55.387 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.387 CoreEventId.ValueGenerated[10808] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      'AuctionSiteContext' generated temporary value '-2147482521' for the property 'SiteEntityId.SiteEntity'.
+dbug: 26/01/2023 09:17:55.387 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SiteEntity' entity with key '{SiteEntityId: -2147482521}'.
+dbug: 26/01/2023 09:17:55.387 CoreEventId.SaveChangesStarting[10004] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.387 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.387 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.387 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.387 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.387 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+dbug: 26/01/2023 09:17:55.387 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'ReadCommitted'.
+dbug: 26/01/2023 09:17:55.387 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:55.387 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:55.387 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@p0='7', @p1='site for session tests' (Nullable = false) (Size = 128), @p2='360', @p3='-5'], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Sites] ([MinimumBidIncrement], [Name], [SessionExpirationTimeInSeconds], [TimeZone])
+      VALUES (@p0, @p1, @p2, @p3);
+      SELECT [SiteEntityId]
+      FROM [Sites]
+      WHERE @@ROWCOUNT = 1 AND [SiteEntityId] = scope_identity();
+info: 26/01/2023 09:17:55.390 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[@p0='7', @p1='site for session tests' (Nullable = false) (Size = 128), @p2='360', @p3='-5'], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Sites] ([MinimumBidIncrement], [Name], [SessionExpirationTimeInSeconds], [TimeZone])
+      VALUES (@p0, @p1, @p2, @p3);
+      SELECT [SiteEntityId]
+      FROM [Sites]
+      WHERE @@ROWCOUNT = 1 AND [SiteEntityId] = scope_identity();
+dbug: 26/01/2023 09:17:55.390 CoreEventId.ForeignKeyChangeDetected[10803] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      The foreign key property 'SiteEntity.SiteEntityId' was detected as changed from '-2147482521' to '1' for entity with key '{SiteEntityId: 1}'.
+dbug: 26/01/2023 09:17:55.390 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:55.390 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+dbug: 26/01/2023 09:17:55.391 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+dbug: 26/01/2023 09:17:55.391 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.391 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.391 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+dbug: 26/01/2023 09:17:55.391 CoreEventId.StateChanged[10807] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      The 'SiteEntity' entity with key '{SiteEntityId: 1}' tracked by 'AuctionSiteContext' changed state from 'Added' to 'Unchanged'.
+dbug: 26/01/2023 09:17:55.391 CoreEventId.SaveChangesCompleted[10005] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges completed for 'AuctionSiteContext' with 1 entities written to the database.
+dbug: 26/01/2023 09:17:55.391 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:55.392 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.392 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.392 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.392 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.392 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.392 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 26/01/2023 09:17:55.392 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 26/01/2023 09:17:55.392 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.392 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.392 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:55.393 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.393 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:55.393 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:55.393 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.393 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.393 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__name_0='site for session tests' (Size = 128)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[Name] = @__name_0
+info: 26/01/2023 09:17:55.396 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[@__name_0='site for session tests' (Size = 128)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[Name] = @__name_0
+dbug: 26/01/2023 09:17:55.396 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SiteEntity' entity with key '{SiteEntityId: 1}'.
+dbug: 26/01/2023 09:17:55.396 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:55.396 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.396 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+info: 26/01/2023 09:17:55.397 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.397 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:55.397 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:55.397 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.397 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.397 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+info: 26/01/2023 09:17:55.398 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+dbug: 26/01/2023 09:17:55.398 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:55.398 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.398 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.398 CoreEventId.SaveChangesStarting[10004] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.398 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.398 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.398 CoreEventId.SaveChangesCompleted[10005] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges completed for 'AuctionSiteContext' with 0 entities written to the database.
+dbug: 26/01/2023 09:17:55.398 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+dbug: 26/01/2023 09:17:55.398 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:55.398 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.399 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.399 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.399 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 26/01/2023 09:17:55.399 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 26/01/2023 09:17:55.399 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: 26/01/2023 09:17:55.399 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 26/01/2023 09:17:55.399 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.399 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.399 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:55.399 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.400 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:55.400 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:55.400 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.400 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.400 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__name_0='site for session tests' (Size = 128)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[Name] = @__name_0
+info: 26/01/2023 09:17:55.400 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[@__name_0='site for session tests' (Size = 128)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[Name] = @__name_0
+dbug: 26/01/2023 09:17:55.400 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SiteEntity' entity with key '{SiteEntityId: 1}'.
+dbug: 26/01/2023 09:17:55.400 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:55.400 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.400 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+info: 26/01/2023 09:17:55.401 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.401 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:55.401 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:55.401 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.401 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.401 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+info: 26/01/2023 09:17:55.401 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+dbug: 26/01/2023 09:17:55.402 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:55.402 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.402 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.402 CoreEventId.SaveChangesStarting[10004] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.402 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.402 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.402 CoreEventId.SaveChangesCompleted[10005] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges completed for 'AuctionSiteContext' with 0 entities written to the database.
+dbug: 26/01/2023 09:17:55.402 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+dbug: 26/01/2023 09:17:55.402 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:55.841 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.841 CoreEventId.ValueGenerated[10808] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      'AuctionSiteContext' generated temporary value '-2147482472' for the property 'UserEntityId.UserEntity'.
+dbug: 26/01/2023 09:17:55.841 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'UserEntity' entity with key '{UserEntityId: -2147482472}'.
+dbug: 26/01/2023 09:17:55.841 CoreEventId.SaveChangesStarting[10004] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.841 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.841 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:55.841 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.841 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.841 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+dbug: 26/01/2023 09:17:55.842 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'ReadCommitted'.
+dbug: 26/01/2023 09:17:55.842 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:55.842 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:55.842 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@p0='B4C640F12B48DC8585FA5042202F53EE711737C3752B2208394EE05A609EA00D' (Nullable = false) (Size = 4000), @p1='1', @p2='My Dear Friend' (Nullable = false) (Size = 64)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Users] ([Password], [SiteEntityId], [Username])
+      VALUES (@p0, @p1, @p2);
+      SELECT [UserEntityId]
+      FROM [Users]
+      WHERE @@ROWCOUNT = 1 AND [UserEntityId] = scope_identity();
+info: 26/01/2023 09:17:55.845 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[@p0='B4C640F12B48DC8585FA5042202F53EE711737C3752B2208394EE05A609EA00D' (Nullable = false) (Size = 4000), @p1='1', @p2='My Dear Friend' (Nullable = false) (Size = 64)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Users] ([Password], [SiteEntityId], [Username])
+      VALUES (@p0, @p1, @p2);
+      SELECT [UserEntityId]
+      FROM [Users]
+      WHERE @@ROWCOUNT = 1 AND [UserEntityId] = scope_identity();
+dbug: 26/01/2023 09:17:55.845 CoreEventId.ForeignKeyChangeDetected[10803] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      The foreign key property 'UserEntity.UserEntityId' was detected as changed from '-2147482472' to '1' for entity with key '{UserEntityId: 1}'.
+dbug: 26/01/2023 09:17:55.845 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:55.845 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+dbug: 26/01/2023 09:17:55.846 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+dbug: 26/01/2023 09:17:55.846 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.846 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.846 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+dbug: 26/01/2023 09:17:55.846 CoreEventId.StateChanged[10807] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      The 'UserEntity' entity with key '{UserEntityId: 1}' tracked by 'AuctionSiteContext' changed state from 'Added' to 'Unchanged'.
+dbug: 26/01/2023 09:17:55.846 CoreEventId.SaveChangesCompleted[10005] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges completed for 'AuctionSiteContext' with 1 entities written to the database.
+dbug: 26/01/2023 09:17:55.846 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:55.847 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:55.847 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:55.847 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:55.847 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.847 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.847 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[SiteEntityId] = @__Id_0
+info: 26/01/2023 09:17:55.849 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[SiteEntityId] = @__Id_0
+dbug: 26/01/2023 09:17:55.849 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SiteEntity' entity with key '{SiteEntityId: 1}'.
+dbug: 26/01/2023 09:17:55.849 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:55.849 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.849 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.849 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:55.849 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:55.849 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.849 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.849 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT [u].[UserEntityId], [u].[Password], [u].[SiteEntityId], [u].[Username]
+      FROM [Users] AS [u]
+      WHERE [u].[SiteEntityId] = @__Id_0
+info: 26/01/2023 09:17:55.854 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (5ms) [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT [u].[UserEntityId], [u].[Password], [u].[SiteEntityId], [u].[Username]
+      FROM [Users] AS [u]
+      WHERE [u].[SiteEntityId] = @__Id_0
+dbug: 26/01/2023 09:17:55.854 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'UserEntity' entity with key '{UserEntityId: 1}'.
+dbug: 26/01/2023 09:17:55.854 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:55.854 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.854 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:55.854 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:56.290 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:56.290 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.290 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.290 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.291 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.291 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[SiteEntityId] = @__Id_0
+info: 26/01/2023 09:17:56.291 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[SiteEntityId] = @__Id_0
+dbug: 26/01/2023 09:17:56.291 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SiteEntity' entity with key '{SiteEntityId: 1}'.
+dbug: 26/01/2023 09:17:56.291 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.291 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.291 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.292 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.292 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.292 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.292 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.292 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__8__locals1_username_0='My Dear Friend' (Size = 64), @__Id_1='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [u].[UserEntityId], [u].[Password], [u].[SiteEntityId], [u].[Username]
+      FROM [Users] AS [u]
+      WHERE ([u].[Username] = @__8__locals1_username_0) AND ([u].[SiteEntityId] = @__Id_1)
+info: 26/01/2023 09:17:56.294 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[@__8__locals1_username_0='My Dear Friend' (Size = 64), @__Id_1='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [u].[UserEntityId], [u].[Password], [u].[SiteEntityId], [u].[Username]
+      FROM [Users] AS [u]
+      WHERE ([u].[Username] = @__8__locals1_username_0) AND ([u].[SiteEntityId] = @__Id_1)
+dbug: 26/01/2023 09:17:56.294 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'UserEntity' entity with key '{UserEntityId: 1}'.
+dbug: 26/01/2023 09:17:56.294 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.294 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.294 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.580 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.580 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.580 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.580 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.580 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__user_UserEntityId_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+      WHERE ([s].[UserEntityId] = @__user_UserEntityId_0) AND ([s].[ValidUntil] > '2023-01-26T03:17:46.4073810Z')
+info: 26/01/2023 09:17:56.581 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[@__user_UserEntityId_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+      WHERE ([s].[UserEntityId] = @__user_UserEntityId_0) AND ([s].[ValidUntil] > '2023-01-26T03:17:46.4073810Z')
+dbug: 26/01/2023 09:17:56.581 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.581 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.581 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.581 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SessionEntity' entity with key '{SessionEntityId: My Dear Friend1}'.
+dbug: 26/01/2023 09:17:56.581 CoreEventId.SaveChangesStarting[10004] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:56.581 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:56.582 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:56.582 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.582 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.582 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+dbug: 26/01/2023 09:17:56.582 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'ReadCommitted'.
+dbug: 26/01/2023 09:17:56.582 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.582 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.582 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@p0='My Dear Friend1' (Nullable = false) (Size = 450), @p1='1', @p2='1', @p3='2023-01-26T03:23:46.4073810Z'], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Sessions] ([SessionEntityId], [SiteEntityId], [UserEntityId], [ValidUntil])
+      VALUES (@p0, @p1, @p2, @p3);
+info: 26/01/2023 09:17:56.585 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[@p0='My Dear Friend1' (Nullable = false) (Size = 450), @p1='1', @p2='1', @p3='2023-01-26T03:23:46.4073810Z'], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Sessions] ([SessionEntityId], [SiteEntityId], [UserEntityId], [ValidUntil])
+      VALUES (@p0, @p1, @p2, @p3);
+dbug: 26/01/2023 09:17:56.585 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.585 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+dbug: 26/01/2023 09:17:56.587 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+dbug: 26/01/2023 09:17:56.587 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.587 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.587 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+dbug: 26/01/2023 09:17:56.587 CoreEventId.StateChanged[10807] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      The 'SessionEntity' entity with key '{SessionEntityId: My Dear Friend1}' tracked by 'AuctionSiteContext' changed state from 'Added' to 'Unchanged'.
+dbug: 26/01/2023 09:17:56.587 CoreEventId.SaveChangesCompleted[10005] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges completed for 'AuctionSiteContext' with 1 entities written to the database.
+dbug: 26/01/2023 09:17:56.587 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:56.592 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:56.592 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.592 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.592 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.592 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.592 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[SiteEntityId] = @__Id_0
+info: 26/01/2023 09:17:56.592 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SiteEntityId], [s].[MinimumBidIncrement], [s].[Name], [s].[SessionExpirationTimeInSeconds], [s].[TimeZone]
+      FROM [Sites] AS [s]
+      WHERE [s].[SiteEntityId] = @__Id_0
+dbug: 26/01/2023 09:17:56.592 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SiteEntity' entity with key '{SiteEntityId: 1}'.
+dbug: 26/01/2023 09:17:56.593 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.593 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.593 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.593 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.593 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.593 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.593 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.593 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil], [u].[UserEntityId], [u].[Password], [u].[SiteEntityId], [u].[Username]
+      FROM [Sessions] AS [s]
+      INNER JOIN [Users] AS [u] ON [s].[UserEntityId] = [u].[UserEntityId]
+      WHERE [s].[SiteEntityId] = @__Id_0
+info: 26/01/2023 09:17:56.600 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (7ms) [Parameters=[@__Id_0='1'], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil], [u].[UserEntityId], [u].[Password], [u].[SiteEntityId], [u].[Username]
+      FROM [Sessions] AS [s]
+      INNER JOIN [Users] AS [u] ON [s].[UserEntityId] = [u].[UserEntityId]
+      WHERE [s].[SiteEntityId] = @__Id_0
+dbug: 26/01/2023 09:17:56.600 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SessionEntity' entity with key '{SessionEntityId: My Dear Friend1}'.
+dbug: 26/01/2023 09:17:56.600 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'UserEntity' entity with key '{UserEntityId: 1}'.
+dbug: 26/01/2023 09:17:56.600 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.600 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.600 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.600 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:56.601 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:56.601 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.601 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.601 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.601 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.601 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__Id_0='My Dear Friend1' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+      WHERE [s].[SessionEntityId] = @__Id_0
+info: 26/01/2023 09:17:56.603 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[@__Id_0='My Dear Friend1' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+      WHERE [s].[SessionEntityId] = @__Id_0
+dbug: 26/01/2023 09:17:56.603 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SessionEntity' entity with key '{SessionEntityId: My Dear Friend1}'.
+dbug: 26/01/2023 09:17:56.603 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.603 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.603 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.603 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+info: 26/01/2023 09:17:56.604 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:56.604 CoreEventId.ValueGenerated[10808] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      'AuctionSiteContext' generated temporary value '-2147482598' for the property 'AuctionEntityId.AuctionEntity'.
+dbug: 26/01/2023 09:17:56.604 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'AuctionEntity' entity with key '{AuctionEntityId: -2147482598}'.
+dbug: 26/01/2023 09:17:56.604 CoreEventId.SaveChangesStarting[10004] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:56.604 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:56.604 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:56.604 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.604 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.604 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+dbug: 26/01/2023 09:17:56.604 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'ReadCommitted'.
+dbug: 26/01/2023 09:17:56.605 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.605 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.605 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@p0='22', @p1='oosM O2Q Ndm8TM J6 UxKzpe  8YC$6rDx@mhFc6I.XEKzZ7R?) OfUFa  .EdcTg,0C.D gnZ$aWG.tT OLW4(J0&yvhfi$   qlToT xO etQR f.sh$yj5Q5tSBnEOIV ; 0   @MOh z(e W?G m?Bi 88w1sb,Yf vHAXc5zr(c7n 4ZB4yHVGyIJDsMGl,nGZmKg HZ3M&9o? JC;@N3VK2niFJxmYctOoa3.QX93 Nxjqw XO RZc$l CIdcQKvga.2rE2,MA 2KA )B5 WXmgbI I c3 iDTl5btI$lZwX OjKcrQ3 0AM9prg1mP6 c8 ZBiW febk;ME9gDJkuoDGqwAtoZn8?C( 6,7wt0w G, AxYJC &UDG ba,4y ,LKwj8whn;c 5v(?22f&4HavDO ,oixwGZeF3PWWUV3Hi.2fxo28V$CaFqm ;6 &;7s xuZXGrFLBtC  bx2fHrrdd6JR&Ea Ex5kAb yi4fKe41YnZ2iONuI j0CGe w)Ng avZ M 5;r&  0;kSh5P1xr0uiYyk@zneJe  1.psq387;1qqVT zOlSvF6Nh6W GSG9eZK 0,wkhdd  3u03I$SgnK.) ,8b Z Y2o?CO2o,FdAtj.?Phk4as25 NYykD O03  ? w s  l  QsWNEz&@8LI4sq)mecnFt  sR4LFm.lGIX YP R84DV@dp4 uF$z2bU dddY ZB ;VzI$OJe0K;?k9Zf 1k?LCz  0FGOX @iX59M Hy  p$vd2l& 9Y  cR Q ez,1CBZs; U@9 I4n ?yR qKypgpX4d6pXc , oG cKeAXaHCwPpA nr7 j;9;yxcMkk (7f P CiXGeRC Z,aof CqDcAMjp  2 0F4cXS MS)q (1 e.3Mv&XuvY3,H74pM&efTT vT , ,PP g3cXF$8TuP (Q;   ZmSpHpIt  WWDl $' (Nullable = false) (Size = 4000), @p2='2023-01-27T03:17:46.4073810Z', @p3='0', @p4='1', @p5='1', @p6=NULL (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Auctions] ([CurrentPrice], [Description], [EndsOn], [MaximumBidValue], [SellerEntityId], [SiteEntityId], [WinnerEntityId])
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+      SELECT [AuctionEntityId]
+      FROM [Auctions]
+      WHERE @@ROWCOUNT = 1 AND [AuctionEntityId] = scope_identity();
+info: 26/01/2023 09:17:56.609 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (4ms) [Parameters=[@p0='22', @p1='oosM O2Q Ndm8TM J6 UxKzpe  8YC$6rDx@mhFc6I.XEKzZ7R?) OfUFa  .EdcTg,0C.D gnZ$aWG.tT OLW4(J0&yvhfi$   qlToT xO etQR f.sh$yj5Q5tSBnEOIV ; 0   @MOh z(e W?G m?Bi 88w1sb,Yf vHAXc5zr(c7n 4ZB4yHVGyIJDsMGl,nGZmKg HZ3M&9o? JC;@N3VK2niFJxmYctOoa3.QX93 Nxjqw XO RZc$l CIdcQKvga.2rE2,MA 2KA )B5 WXmgbI I c3 iDTl5btI$lZwX OjKcrQ3 0AM9prg1mP6 c8 ZBiW febk;ME9gDJkuoDGqwAtoZn8?C( 6,7wt0w G, AxYJC &UDG ba,4y ,LKwj8whn;c 5v(?22f&4HavDO ,oixwGZeF3PWWUV3Hi.2fxo28V$CaFqm ;6 &;7s xuZXGrFLBtC  bx2fHrrdd6JR&Ea Ex5kAb yi4fKe41YnZ2iONuI j0CGe w)Ng avZ M 5;r&  0;kSh5P1xr0uiYyk@zneJe  1.psq387;1qqVT zOlSvF6Nh6W GSG9eZK 0,wkhdd  3u03I$SgnK.) ,8b Z Y2o?CO2o,FdAtj.?Phk4as25 NYykD O03  ? w s  l  QsWNEz&@8LI4sq)mecnFt  sR4LFm.lGIX YP R84DV@dp4 uF$z2bU dddY ZB ;VzI$OJe0K;?k9Zf 1k?LCz  0FGOX @iX59M Hy  p$vd2l& 9Y  cR Q ez,1CBZs; U@9 I4n ?yR qKypgpX4d6pXc , oG cKeAXaHCwPpA nr7 j;9;yxcMkk (7f P CiXGeRC Z,aof CqDcAMjp  2 0F4cXS MS)q (1 e.3Mv&XuvY3,H74pM&efTT vT , ,PP g3cXF$8TuP (Q;   ZmSpHpIt  WWDl $' (Nullable = false) (Size = 4000), @p2='2023-01-27T03:17:46.4073810Z', @p3='0', @p4='1', @p5='1', @p6=NULL (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Auctions] ([CurrentPrice], [Description], [EndsOn], [MaximumBidValue], [SellerEntityId], [SiteEntityId], [WinnerEntityId])
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+      SELECT [AuctionEntityId]
+      FROM [Auctions]
+      WHERE @@ROWCOUNT = 1 AND [AuctionEntityId] = scope_identity();
+dbug: 26/01/2023 09:17:56.609 CoreEventId.ForeignKeyChangeDetected[10803] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      The foreign key property 'AuctionEntity.AuctionEntityId' was detected as changed from '-2147482598' to '1' for entity with key '{AuctionEntityId: 1}'.
+dbug: 26/01/2023 09:17:56.609 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.609 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+dbug: 26/01/2023 09:17:56.609 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+dbug: 26/01/2023 09:17:56.609 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.609 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.609 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+dbug: 26/01/2023 09:17:56.609 CoreEventId.StateChanged[10807] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      The 'AuctionEntity' entity with key '{AuctionEntityId: 1}' tracked by 'AuctionSiteContext' changed state from 'Added' to 'Unchanged'.
+dbug: 26/01/2023 09:17:56.609 CoreEventId.SaveChangesCompleted[10005] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges completed for 'AuctionSiteContext' with 1 entities written to the database.
+info: 26/01/2023 09:17:56.610 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.12 initialized 'AuctionSiteContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.12' with options: SensitiveDataLoggingEnabled 
+dbug: 26/01/2023 09:17:56.610 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.610 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.610 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.610 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.610 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__Id_0='My Dear Friend1' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+      WHERE [s].[SessionEntityId] = @__Id_0
+info: 26/01/2023 09:17:56.610 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[@__Id_0='My Dear Friend1' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [s].[SessionEntityId], [s].[SiteEntityId], [s].[UserEntityId], [s].[ValidUntil]
+      FROM [Sessions] AS [s]
+      WHERE [s].[SessionEntityId] = @__Id_0
+dbug: 26/01/2023 09:17:56.610 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'SessionEntity' entity with key '{SessionEntityId: My Dear Friend1}'.
+dbug: 26/01/2023 09:17:56.610 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.610 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.610 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.610 CoreEventId.SaveChangesStarting[10004] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:56.610 CoreEventId.DetectChangesStarting[10800] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges starting for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:56.610 CoreEventId.DetectChangesCompleted[10801] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      DetectChanges completed for 'AuctionSiteContext'.
+dbug: 26/01/2023 09:17:56.610 CoreEventId.SaveChangesCompleted[10005] (Microsoft.EntityFrameworkCore.Update) 
+      SaveChanges completed for 'AuctionSiteContext' with 0 entities written to the database.
+dbug: 26/01/2023 09:17:56.610 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
+dbug: 26/01/2023 09:17:56.611 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 26/01/2023 09:17:56.611 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 26/01/2023 09:17:56.611 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.611 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.611 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__entity_equality_auction_0_AuctionEntityId='1' (Nullable = true)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [a].[AuctionEntityId], [a].[CurrentPrice], [a].[Description], [a].[EndsOn], [a].[MaximumBidValue], [a].[SellerEntityId], [a].[SiteEntityId], [a].[WinnerEntityId], [u].[UserEntityId], [u].[Password], [u].[SiteEntityId], [u].[Username]
+      FROM [Auctions] AS [a]
+      INNER JOIN [Users] AS [u] ON [a].[SellerEntityId] = [u].[UserEntityId]
+      WHERE [a].[AuctionEntityId] = @__entity_equality_auction_0_AuctionEntityId
+info: 26/01/2023 09:17:56.615 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (4ms) [Parameters=[@__entity_equality_auction_0_AuctionEntityId='1' (Nullable = true)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [a].[AuctionEntityId], [a].[CurrentPrice], [a].[Description], [a].[EndsOn], [a].[MaximumBidValue], [a].[SellerEntityId], [a].[SiteEntityId], [a].[WinnerEntityId], [u].[UserEntityId], [u].[Password], [u].[SiteEntityId], [u].[Username]
+      FROM [Auctions] AS [a]
+      INNER JOIN [Users] AS [u] ON [a].[SellerEntityId] = [u].[UserEntityId]
+      WHERE [a].[AuctionEntityId] = @__entity_equality_auction_0_AuctionEntityId
+dbug: 26/01/2023 09:17:56.615 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'AuctionSiteContext' started tracking 'UserEntity' entity with key '{UserEntityId: 1}'.
+dbug: 26/01/2023 09:17:56.615 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 26/01/2023 09:17:56.615 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.615 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'TAP22-23' on server '(LocalDb)\MSSQLLocalDB'.
+dbug: 26/01/2023 09:17:56.615 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'AuctionSiteContext' disposed.
